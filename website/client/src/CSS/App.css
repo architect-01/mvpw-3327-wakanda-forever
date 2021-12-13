@@ -1,0 +1,102 @@
+.AppWrapper {
+}
+.AccountInfo {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 250px;
+  box-shadow: 1px 2px lightgrey;
+}
+.AccountInfo h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.AccountInfo .InfoPiece {
+  text-align: center;
+  border-right: 1px solid lightgrey;
+  border-radius: 2px;
+  padding: 3px;
+  flex: 1;
+}
+.AccountInfo .Address {
+  flex: 3;
+}
+
+.App {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.CastingVotes {
+  display: flex;
+}
+
+.CastingVotes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Voting h3 {
+  margin-top: 0;
+}
+.CastingVotes .VoteOption {
+  padding: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  text-align: center;
+}
+
+.CastingVotes .Component {
+  margin: 10px auto;
+  width: 90%;
+}
+
+.ShowLeads {
+  margin: 20px;
+}
+
+.Header {
+  color: white;
+  background-color: black;
+  padding: 10px 300px;
+  display: flex;
+  flex-direction: column;
+}
+.Header .C0 {
+  display: flex;
+  justify-content: space-between;
+}
+.Header .C0 h1 {
+  margin: auto 0;
+}
+
+.HeaderImg {
+  height: 60px;
+  padding-right: 20px;
+}
+
+.Header .C1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Header .C1 .Link {
+  padding: 0 10px;
+}
+
+.EtherscanReferences h4 {
+  margin: 0 5px;
+}
+.GithubLink {
+  float: right;
+}
+
+.EtherscanReferences {
+  display: flex;
+  justify-self: flex-end;
+}

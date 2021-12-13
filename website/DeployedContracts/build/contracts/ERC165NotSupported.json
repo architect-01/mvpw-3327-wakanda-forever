@@ -1,0 +1,145 @@
+{
+  "abi": [],
+  "allSourcePaths": {
+    "59": "contracts/OpenZepellin/contracts/mocks/ERC165/ERC165NotSupported.sol"
+  },
+  "ast": {
+    "absolutePath": "contracts/OpenZepellin/contracts/mocks/ERC165/ERC165NotSupported.sol",
+    "exportedSymbols": {
+      "ERC165NotSupported": [
+        8037
+      ]
+    },
+    "id": 8038,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 8036,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:23:59"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 8037,
+        "linearizedBaseContracts": [
+          8037
+        ],
+        "name": "ERC165NotSupported",
+        "nameLocation": "67:18:59",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 8038,
+        "src": "58:30:59",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:56:59"
+  },
+  "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220d8eccfc3bf35c8fbc41f920d21a5ff0046111f9c1c683f5e91dfa70771b5a90564736f6c63430008060033",
+  "bytecodeSha1": "73df0a6f5d0123eb2b2db0faf62b602aa77c123a",
+  "compiler": {
+    "evm_version": "istanbul",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "version": "0.8.6+commit.11564f7e"
+  },
+  "contractName": "ERC165NotSupported",
+  "coverageMap": {
+    "branches": {
+      "59": {}
+    },
+    "statements": {
+      "59": {}
+    }
+  },
+  "dependencies": [],
+  "deployedBytecode": "6080604052600080fdfea2646970667358221220d8eccfc3bf35c8fbc41f920d21a5ff0046111f9c1c683f5e91dfa70771b5a90564736f6c63430008060033",
+  "deployedSourceMap": "58:30:59:-:0;;;;;",
+  "language": "Solidity",
+  "natspec": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "offset": [
+    58,
+    88
+  ],
+  "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xD8 0xEC 0xCF 0xC3 0xBF CALLDATALOAD 0xC8 0xFB 0xC4 0x1F SWAP3 0xD 0x21 0xA5 SELFDESTRUCT STOP CHAINID GT 0x1F SWAP13 SHR PUSH9 0x3F5E91DFA70771B5A9 SDIV PUSH5 0x736F6C6343 STOP ADDMOD MOD STOP CALLER ",
+  "pcMap": {
+    "0": {
+      "offset": [
+        58,
+        88
+      ],
+      "op": "PUSH1",
+      "path": "59",
+      "value": "0x80"
+    },
+    "2": {
+      "fn": null,
+      "offset": [
+        58,
+        88
+      ],
+      "op": "PUSH1",
+      "path": "59",
+      "value": "0x40"
+    },
+    "4": {
+      "fn": null,
+      "offset": [
+        58,
+        88
+      ],
+      "op": "MSTORE",
+      "path": "59"
+    },
+    "5": {
+      "fn": null,
+      "offset": [
+        58,
+        88
+      ],
+      "op": "PUSH1",
+      "path": "59",
+      "value": "0x0"
+    },
+    "7": {
+      "fn": null,
+      "offset": [
+        58,
+        88
+      ],
+      "op": "DUP1",
+      "path": "59"
+    },
+    "8": {
+      "fn": null,
+      "offset": [
+        58,
+        88
+      ],
+      "op": "REVERT",
+      "path": "59"
+    }
+  },
+  "sha1": "3ac397282f6eeebd948faa33dace5caf94787821",
+  "source": "// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.0;\n\ncontract ERC165NotSupported {}\n",
+  "sourceMap": "58:30:59:-:0;;;;;;;;;;;;;;;;;;;",
+  "sourcePath": "contracts/OpenZepellin/contracts/mocks/ERC165/ERC165NotSupported.sol",
+  "type": "contract"
+}
