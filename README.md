@@ -64,7 +64,7 @@ Main functions of SC are:
 - **register (address \_citizen)**
   - Can be called by any address - anyone can register any non previously registered address.
 - **vote (uint256 \_candidateId, uint256 \_amount)**
-  - While the frontend is designed such that the message (intended vote) is signed by the voter and passed to the server to be posted on the blockchain, SC has the ability for the voter to directly.
+  - While the frontend is designed such that the message (intended vote) is signed by the voter and passed to the server to be posted on the blockchain, SC has the ability for the voter to cast a vote directly.
 - **winningCandidates ()**
   - Returns top 3 candidates with highest number of votes.
 
@@ -88,8 +88,20 @@ NodeJS (ExpressJS) server as backend and ReactJS as frontend framework. Located 
 
 # General development flow
 
-After making changes to SC .sol files, use the command : **\*cd smart-contracts && brownie run scripts/deploy_all.py --network NETWORK_NAME \***
-which deploys all contracts and updates the _website/DeployedContracts_ folder for the backend to use.
+Have three active terminals :
+
+**cd smart-contracts**
+
+- This is where the SC development, testing and deployment is done. After making changes to .sol files, use the command : **\*brownie run scripts/deploy_all.py --network NETWORK_NAME \***
+  which deploys all contracts and updates the _website/DeployedContracts_ folder for the backend to use.
+
+**cd website && npm start**
+
+- Starts the local NodeJS server (backend)
+
+**cd website/client && npm start**
+
+- Starts the local ReactJS development environment
 
 # Some important information
 
