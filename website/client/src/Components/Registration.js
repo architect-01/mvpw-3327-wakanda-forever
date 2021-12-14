@@ -16,11 +16,7 @@ async function handleRegistration(citizenAddress, setAlertType, setMessage) {
     })
     .then(function (response) {
       console.log(response);
-      if (response.data.error != undefined) {
-        setAlertType("error");
-      } else {
-        setAlertType("success");
-      }
+      setAlertType(response.data.error != undefined ? "error" : "success");
       setMessage(response.data.msg);
     })
     .catch(function (error) {
@@ -54,7 +50,6 @@ function Registration(props) {
           ),
         }}
       />
-
       <br></br>
       <p className="Message">{message ? <Alert severity={alertType}>{message}</Alert> : undefined}</p>
     </div>

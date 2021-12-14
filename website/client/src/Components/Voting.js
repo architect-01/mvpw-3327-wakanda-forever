@@ -122,6 +122,7 @@ function Voting(props) {
       <h1>Voting Page</h1>
       <div className="CastingVotes">
         <CandidateTable candidates={candidates} />
+
         <div className="VoteOption">
           <h3>Cast your vote</h3>
           <FormControl fullWidth className="Component">

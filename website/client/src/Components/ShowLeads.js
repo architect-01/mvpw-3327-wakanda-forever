@@ -24,7 +24,6 @@ async function getWinningCandidates(setCandidates) {
   try {
     const resp = await axios.get(`${backend}/getWinningCandidates`, {});
     console.log(resp);
-
     const { candidates } = resp.data;
     setCandidates(candidates);
   } catch (err) {
